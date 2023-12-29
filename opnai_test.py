@@ -1,8 +1,10 @@
 from openai import OpenAI
 from pathlib import Path
-client = OpenAI(api_key="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")
 
-audio_file= open("D:/!_BibA/BiBa/sound_testing/biba_test_3(ukr).mp3", "rb")
+key = open("./keys/biba_key.txt", 'r').read()
+client = OpenAI(api_key=key)
+
+audio_file= open("D:/!_BibA/BiBa/sound_testing/1.mp3", "rb")
 transcript = client.audio.translations.create(
   model="whisper-1", 
   file=audio_file,
