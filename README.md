@@ -8,8 +8,11 @@ Hologram will be glass-based as a pyramid. Screen on bottom of pyramid currently
 
 sooo... some steps of our building:
     1) generating speech-to-text and text-to-speech
+
     2) build basis for machine (ruspberry pi 4) on python 
+
     3) in couple with 2. build android app that conect's 
     to our machine and has a little data-travel between
+    
     4) connect chat-GPT (3 turbo or 4) API to our software 
     on machine (Biba-dev) and same methods with app (probably)  
