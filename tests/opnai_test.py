@@ -1,7 +1,7 @@
 from openai import OpenAI
 from pathlib import Path
 
-key = open("./keys/biba_key.txt", 'r').read()
+key = open("D:/!_BibA/BiBa/keys/biba_key.txt", 'r').read()
 client = OpenAI(api_key=key)
 
 audio_file= open("D:/!_BibA/BiBa/sound_testing/1.mp3", "rb")
