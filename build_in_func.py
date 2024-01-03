@@ -28,8 +28,8 @@ class Main_functions:
             voice='fable',
             input=text
         )
-        self.speech.stream_to_file(self.speech_output_path)
-        
+        self.speech.stream_to_file(self.speech_output_path / 'spech.mp3')
+
 
 
 
