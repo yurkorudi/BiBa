@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "UnzYVIp1MwmaaHF6kmgu00R93Bk5XP6hiv8sTrrbs1YBaoulO90Exao9wWZdRc1FtRhnxhpJn2rTnqC7LY81jw==",
+  "success": true,
+  "projectFilePath": "D:\\visualStudio\\programs\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.iOS\\_20240104_BibaMobileApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\рр\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\рр\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\рр\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
