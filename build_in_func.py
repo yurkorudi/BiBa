@@ -23,12 +23,12 @@ class Main_functions:
     
 
     def text_to_speech(self, text):
-        self.speech = self.client.speech.create(
+        self.speech = self.client.audio.speech.create(
             model='tts-1',
             voice='fable',
             input=text
         )
-        self.speech.stream_to_file(self.speech_output_path / 'spech.mp3')
+        self.speech.stream_to_file(self.speech_output_path + '/spech.mp3')
 
 
 
