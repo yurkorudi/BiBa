@@ -8,25 +8,68 @@
     <Application.Resources>
         <ResourceDictionary>
             <Color x:Key="Primary">#2196F3</Color>
-            <Style TargetType="Button">
-                <Setter Property="TextColor" Value="White"></Setter>
-                <Setter Property="VisualStateManager.VisualStateGroups">
-                    <VisualStateGroupList>
-                        <VisualStateGroup x:Name="CommonStates">
-                            <VisualState x:Name="Normal">
-                                <VisualState.Setters>
-                                    <Setter Property="BackgroundColor" Value="{StaticResource Primary}" />
-                                </VisualState.Setters>
-                            </VisualState>
-                            <VisualState x:Name="Disabled">
-                                <VisualState.Setters>
-                                    <Setter Property="BackgroundColor" Value="#332196F3" />
-                                </VisualState.Setters>
-                            </VisualState>
-                        </VisualStateGroup>
-                    </VisualStateGroupList>
-                </Setter>
+
+            <Style x:Key="ChatPage" TargetType="Grid">
+                <Setter Property="BackgroundColor" Value="Blue"/>
+                <Setter Property="RowDefinitions" Value="*, 50"/>
             </Style>
+            
+            <Style x:Key="MessageTerminal" TargetType="ScrollView">
+                <Setter Property="Margin" Value="25, 15, 25, 0"/>
+                <Setter Property="Padding" Value="15"/>
+                <Setter Property="BackgroundColor" Value="White"/>
+            </Style>
+            
+            <Style x:Key="MessageFrame" TargetType="Frame">
+                <Setter Property="Padding" Value="2"/>
+                <Setter Property="Margin" Value="0, 0, 0, 15"/>
+                <Setter Property="BorderColor" Value="Blue"/>
+            </Style>
+            
+            <Style x:Key="DefaultLabelStyle" TargetType="Label">
+                <Setter Property="Padding" Value="15"/>
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="VerticalOptions" Value="StartAndExpand"/>
+                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+            </Style>
+
+            <Style x:Key="AnsweredLabel" TargetType="Label" BasedOn="{StaticResource DefaultLabelStyle}" >
+                <Setter Property="BackgroundColor" Value="Yellow"/>
+            </Style>
+
+            <Style x:Key="AskedLabel" TargetType="Label" BasedOn="{StaticResource DefaultLabelStyle}" >
+                <Setter Property="BackgroundColor" Value="GhostWhite"/>
+            </Style>
+
+            <Style x:Key="ErrorLabel" TargetType="Label" BasedOn="{StaticResource DefaultLabelStyle}" >
+                <Setter Property="TextColor" Value="DarkRed"/>
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+            </Style>
+
+            <Style x:Key="ChatSendButton" TargetType="Button">
+                <Setter Property="Text" Value="Send message"/>
+                <Setter Property="FontSize" Value="10"/>
+                <Setter Property="WidthRequest" Value="45"/>
+                <Setter Property="Margin" Value="-6, -1, 0, 0"/>
+                <Setter Property="BackgroundColor" Value="Green"/>
+            </Style>
+
+            <Style x:Key="ChatMessageInput" TargetType="StackLayout">
+                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="Orientation" Value="Horizontal"/>
+                <Setter Property="Margin" Value="25, -5, 25, 15"/>
+                <Setter Property="Padding" Value="0"/>
+            </Style>
+
+            <Style x:Key="ChatEntry" TargetType="Entry">
+                <Setter Property="BackgroundColor" Value="Black"/>
+                <Setter Property="PlaceholderColor" Value="White"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="Placeholder" Value="Enter your message.."/>
+                <Setter Property="WidthRequest" Value="300"/>
+            </Style>
+
         </ResourceDictionary>        
     </Application.Resources>
 </Application>

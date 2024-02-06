@@ -1,4 +1,4 @@
-﻿using _20240104_BibaMobileApp.ViewModels;
+﻿//using _20240104_BibaMobileApp.ViewModels;
 using _20240104_BibaMobileApp.Views;
 using System;
 using System.Collections.Generic;
@@ -11,8 +11,6 @@ namespace _20240104_BibaMobileApp
         public AppShell()
         {
             InitializeComponent();
-            Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
-            Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
         }
 
     }

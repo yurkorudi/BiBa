@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\visualStudio\\programs\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.iOS\\_20240104_BibaMobileApp.iOS.csproj": {}
+    "D:\\Biba\\BibaGitHubRepositoty\\BiBa\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.iOS\\_20240104_BibaMobileApp.iOS.csproj": {}
   },
   "projects": {
-    "D:\\visualStudio\\programs\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.iOS\\_20240104_BibaMobileApp.iOS.csproj": {
+    "D:\\Biba\\BibaGitHubRepositoty\\BiBa\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.iOS\\_20240104_BibaMobileApp.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\visualStudio\\programs\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.iOS\\_20240104_BibaMobileApp.iOS.csproj",
+        "projectUniqueName": "D:\\Biba\\BibaGitHubRepositoty\\BiBa\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.iOS\\_20240104_BibaMobileApp.iOS.csproj",
         "projectName": "_20240104_BibaMobileApp.iOS",
-        "projectPath": "D:\\visualStudio\\programs\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.iOS\\_20240104_BibaMobileApp.iOS.csproj",
-        "packagesPath": "C:\\Users\\рр\\.nuget\\packages\\",
-        "outputPath": "D:\\visualStudio\\programs\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.iOS\\obj\\",
+        "projectPath": "D:\\Biba\\BibaGitHubRepositoty\\BiBa\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.iOS\\_20240104_BibaMobileApp.iOS.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Biba\\BibaGitHubRepositoty\\BiBa\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "D:\\visualStudio\\sustem_pacages\\NuGetPackages"
+          "C:\\Users\\user\\myInstApps\\visualStudio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\рр\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "D:\\visualStudio\\programs\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.csproj": {
-                "projectPath": "D:\\visualStudio\\programs\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.csproj"
+              "D:\\Biba\\BibaGitHubRepositoty\\BiBa\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.csproj": {
+                "projectPath": "D:\\Biba\\BibaGitHubRepositoty\\BiBa\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.csproj"
               }
             }
           }
@@ -42,6 +42,10 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.7.0, )"
@@ -68,20 +72,20 @@
         }
       }
     },
-    "D:\\visualStudio\\programs\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.csproj": {
+    "D:\\Biba\\BibaGitHubRepositoty\\BiBa\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\visualStudio\\programs\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.csproj",
+        "projectUniqueName": "D:\\Biba\\BibaGitHubRepositoty\\BiBa\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.csproj",
         "projectName": "_20240104_BibaMobileApp",
-        "projectPath": "D:\\visualStudio\\programs\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.csproj",
-        "packagesPath": "C:\\Users\\рр\\.nuget\\packages\\",
-        "outputPath": "D:\\visualStudio\\programs\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp\\obj\\",
+        "projectPath": "D:\\Biba\\BibaGitHubRepositoty\\BiBa\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Biba\\BibaGitHubRepositoty\\BiBa\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\visualStudio\\sustem_pacages\\NuGetPackages"
+          "C:\\Users\\user\\myInstApps\\visualStudio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\рр\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -115,6 +119,10 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.7.0, )"
@@ -135,7 +143,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

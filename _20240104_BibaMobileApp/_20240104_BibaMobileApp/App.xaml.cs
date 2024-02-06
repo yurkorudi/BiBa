@@ -1,8 +1,9 @@
-﻿using _20240104_BibaMobileApp.Services;
+﻿//using _20240104_BibaMobileApp.Services;
 using _20240104_BibaMobileApp.Views;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+
 
 namespace _20240104_BibaMobileApp
 {
@@ -13,7 +14,6 @@ namespace _20240104_BibaMobileApp
         {
             InitializeComponent();
 
-            DependencyService.Register<LocalDataStoreSlot>();
             MainPage = new AppShell();
         }
 

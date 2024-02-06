@@ -14,15 +14,15 @@
     <Shell.Resources>
         <ResourceDictionary>
             <Style x:Key="BaseStyle" TargetType="Element">
-                <Setter Property="Shell.BackgroundColor" Value="{StaticResource Primary}" />
-                <Setter Property="Shell.ForegroundColor" Value="White" />
-                <Setter Property="Shell.TitleColor" Value="White" />
-                <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
-                <Setter Property="Shell.UnselectedColor" Value="#95FFFFFF" />
-                <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource Primary}" />
-                <Setter Property="Shell.TabBarForegroundColor" Value="White"/>
-                <Setter Property="Shell.TabBarUnselectedColor" Value="#95FFFFFF"/>
-                <Setter Property="Shell.TabBarTitleColor" Value="White"/>
+                <Setter Property="Shell.BackgroundColor" Value="{StaticResource Primary}" /> <!--background of header (where is page name)-->
+                <Setter Property="Shell.ForegroundColor" Value="white" /> <!-- Foreground color (text color) of the Shell -->
+                <Setter Property="Shell.TitleColor" Value="White"/> <!-- Title color of the Shell (text color of the page name) -->
+                <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" /> <!-- Color for disabled elements in the Shell -->
+                <Setter Property="Shell.UnselectedColor" Value="#95FFFFFF" /> <!-- Color for unselected elements in the Shell -->
+                <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource Primary}" /> <!-- Background color of the Shell's TabBar -->
+                <Setter Property="Shell.TabBarForegroundColor" Value="White"/> <!-- Foreground color (text color) of the Shell's TabBar -->
+                <Setter Property="Shell.TabBarUnselectedColor" Value="#95FFFFFF"/> <!-- Color for unselected elements in the Shell's TabBar -->
+                <Setter Property="Shell.TabBarTitleColor" Value="White"/> <!-- Title color of the Shell's TabBar (text color of the selected tab) -->
             </Style>
             <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
             <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
@@ -32,10 +32,9 @@
     <TabBar>
         
         <!--first page set as start page-->
-        
-        <ShellContent Title="Login" Icon="xamarin_logo.png" Route="LoginPage" ContentTemplate="{DataTemplate local:LoginPage}" />
-        <ShellContent Title="About" Icon="icon_about.png" Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" />
-        <ShellContent Title="Browse" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
+
+        <ShellContent Title="Beeba Assist" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:ChatPage}" />
+        <ShellContent Title="Beeba Assist" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:ChatPage}" />
         <!--<ShellContent Icon="xamarin_logo.png" Route="LoginPage" ContentTemplate="{DataTemplate local:LoginPage}" />-->
     </TabBar>
 
@@ -43,9 +42,11 @@
         If you would like to navigate to this content you can do so by calling
         await Shell.Current.GoToAsync("//LoginPage");
     -->
+
     <TabBar>
-        <!--if wonna see it nedd to add to previous tabbar-->
-        <ShellContent Title="Login" Icon="xamarin_logo.png" Route="LoginPage" ContentTemplate="{DataTemplate local:LoginPage}" />
+        <!--if wonna see it nedd to add to previous tabbar-->    
+         <ShellContent Title="Beeba Asisst" Icon="icon_feed.png" Route="ChatPage" 
+                       ContentTemplate="{DataTemplate local:ChatPage}" />
     </TabBar>
 
 

@@ -1,12 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "UnzYVIp1MwmaaHF6kmgu00R93Bk5XP6hiv8sTrrbs1YBaoulO90Exao9wWZdRc1FtRhnxhpJn2rTnqC7LY81jw==",
+  "dgSpecHash": "eL3ko/FmogE9VrqGlnNfX+soSYv6Fdz1IeBawcq05VfYqmBa371utwNpb2Q0OrZdofkWL3PMshKqAnzczIKwoA==",
   "success": true,
-  "projectFilePath": "D:\\visualStudio\\programs\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.iOS\\_20240104_BibaMobileApp.iOS.csproj",
+  "projectFilePath": "D:\\Biba\\BibaGitHubRepositoty\\BiBa\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.iOS\\_20240104_BibaMobileApp.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\рр\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\рр\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\рр\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.text.json\\8.0.1\\system.text.json.8.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }

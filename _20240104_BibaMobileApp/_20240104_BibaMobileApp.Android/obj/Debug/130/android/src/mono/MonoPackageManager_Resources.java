@@ -4,6 +4,9 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "_20240104_BibaMobileApp.Android.dll" comes first in this list. */
 		"_20240104_BibaMobileApp.Android.dll",
 		"FormsViewGroup.dll",
+		"Microsoft.Bcl.AsyncInterfaces.dll",
+		"System.Text.Encodings.Web.dll",
+		"System.Text.Json.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
 		"Xamarin.AndroidX.Annotation.Experimental.dll",

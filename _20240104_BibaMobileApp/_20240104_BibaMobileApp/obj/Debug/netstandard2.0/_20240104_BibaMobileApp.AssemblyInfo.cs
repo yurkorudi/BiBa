@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("_20240104_BibaMobileApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9699395c32a150c3e2be6e58300f0aa2b6d61238")]
 [assembly: System.Reflection.AssemblyProductAttribute("_20240104_BibaMobileApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("_20240104_BibaMobileApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

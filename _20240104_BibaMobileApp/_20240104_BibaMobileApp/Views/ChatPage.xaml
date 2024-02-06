@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_20240104_BibaMobileApp.Views.ChatPage"
+             BackgroundColor="White">
+
+    <ContentPage.Content>
+        <Grid Style="{StaticResource ChatPage}">
+            
+            <ScrollView Grid.Row="0" Style="{StaticResource MessageTerminal}">
+
+                <StackLayout x:Name="MessageBlock">
+                    
+                    <Frame Style="{StaticResource MessageFrame}">
+                        <Label Style="{StaticResource AnsweredLabel}"
+                               Text="Hello, I'm your virtual assistant Biba! I glad to see you here. You can ask me anything you're worry about."/>
+                    </Frame>
+                    
+                    <Frame Style="{StaticResource MessageFrame}">
+                        <Label Style="{StaticResource AskedLabel}"
+                               Text="Hello, I'm your virtual assistant Biba! I glad to see you here. You can ask me anything you're worry about."/>
+                    </Frame>
+                    
+                </StackLayout>
+
+            </ScrollView>
+
+            <StackLayout Grid.Row="1" Style="{StaticResource ChatMessageInput}">
+
+                <Entry x:Name="Question" Style="{StaticResource ChatEntry}"/>
+
+                <Button Style="{StaticResource ChatSendButton}" Clicked="SendMessage"/>
+
+            </StackLayout>
+
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
