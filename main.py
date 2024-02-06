@@ -11,5 +11,5 @@ welcome = Welcome_func()
 client = OpenAI(api_key=open("./keys/biba_key.txt", 'r').read())
 
 bib = Main_functions(client)
-bib.text_to_speech('Hello, my dear Olenka. You know what? I love you so much...')
+bib.text_to_speech('Привіть мій любив Вітя, наєш що..? нічо')
 
