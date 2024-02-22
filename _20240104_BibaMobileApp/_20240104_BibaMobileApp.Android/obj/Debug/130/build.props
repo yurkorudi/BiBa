@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638426817026205819
+_nugetassetstimestamp=638442099533114805
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=d:\biba\_20240104_bibamobileapp\_20240104_bibamobileapp.android\_20240104_bibamobileapp.android.csproj
+projectfullpath=d:\biba\bibagithubrepositoty\biba\_20240104_bibamobileapp\_20240104_bibamobileapp.android\_20240104_bibamobileapp.android.csproj

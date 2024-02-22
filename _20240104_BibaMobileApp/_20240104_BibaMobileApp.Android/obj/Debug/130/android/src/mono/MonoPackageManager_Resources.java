@@ -5,6 +5,7 @@ public class MonoPackageManager_Resources {
 		"_20240104_BibaMobileApp.Android.dll",
 		"FormsViewGroup.dll",
 		"Microsoft.Bcl.AsyncInterfaces.dll",
+		"Newtonsoft.Json.dll",
 		"System.Text.Encodings.Web.dll",
 		"System.Text.Json.dll",
 		"Xamarin.AndroidX.Activity.dll",

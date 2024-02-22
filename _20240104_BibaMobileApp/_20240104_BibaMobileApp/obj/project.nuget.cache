@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "TjhAyPyElB0SacIKcVYIvwxbwOlJfQfMMYYy6/JIBd3BsunnISsfE9ijCJT5ZUB+Q6TsGFmAKI/TOgEldfctHg==",
+  "dgSpecHash": "wYGSvx/nIOtSS3AduP+O+fztpcjx72DTjQcUcNo/cPKkMvThyZQYG4nIse1fTl6/QQQY279OVWY+4FPQtOymtw==",
   "success": true,
   "projectFilePath": "D:\\Biba\\BibaGitHubRepositoty\\BiBa\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "eL3ko/FmogE9VrqGlnNfX+soSYv6Fdz1IeBawcq05VfYqmBa371utwNpb2Q0OrZdofkWL3PMshKqAnzczIKwoA==",
+  "dgSpecHash": "l1mAbWyQiPkstSVJsXFtKk7lKXKGYnnQC5/et0IpZMuMBPUc0KhPyLVcNV5UmlAom102LbLWZaZ2mtcleHR7ug==",
   "success": true,
   "projectFilePath": "D:\\Biba\\BibaGitHubRepositoty\\BiBa\\_20240104_BibaMobileApp\\_20240104_BibaMobileApp.iOS\\_20240104_BibaMobileApp.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
